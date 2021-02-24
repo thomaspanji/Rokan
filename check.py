@@ -30,6 +30,6 @@ def well_dev(df=df, identifier='UWI', strings=['D1', 'H1']):
     well_uwi = []
     for string in strings:
         df_dev = df.loc[df[identifier].str.contains('H1', na=False)]
-        num_of_wells = len(list(set(df_dev[idetifier])))
+        num_of_wells = len(list(set(df_dev[identifier])))
         print('{} wells: {}'.format(string, num_of_wells))
 
