@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 14,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#345852",
+        "terminal.foreground": "#dbb611"
+    },
+    "editor.wordWrapColumn": 80
+}
